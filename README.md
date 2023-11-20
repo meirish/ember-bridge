@@ -1,7 +1,7 @@
 # ember-bridge
 
-[Short description of the addon.]
-
+Using iframes to embed foreign applications and syncing URL state across frames.
+Examples in the test-app
 ## Compatibility
 
 - Ember.js v4.8 or above
@@ -14,12 +14,12 @@ ember install ember-bridge
 ```
 
 ## Usage
-
-[Longer description of how to use the addon in apps.]
+TBD
 
 ## Contributing
-
-See the [Contributing](CONTRIBUTING.md) guide for details.
+`pnpm start` in one terminal tab
+`npx http-server test-app/dist --proxy "http://localhost:4200"` in a second terminal to start another instance of the app on `localhost:8080`
+[Longer description of how to use the addon in apps.]
 
 ## License
 
