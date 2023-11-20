@@ -1,0 +1,29 @@
+APP
+App path is: <pre> {{@model.path}} </pre>
+
+<div>
+  Am I in an iframe? <pre> {{if this.inIframe 'yes' 'no'}} </pre>
+  URL: <pre> {{this.url}} </pre>
+</div>
+<div>
+<LinkTo @model="bar"> bar </LinkTo>
+</div>
+
+<div>
+<LinkTo @model="baz">
+baz
+</LinkTo>
+</div>
+
+<div>
+<LinkTo @model="quox">
+quox
+</LinkTo>
+</div>
+
+
+<div>
+<LinkTo @model="really/deeply/nested/route">
+really/deeply/nested/route
+</LinkTo>
+</div>

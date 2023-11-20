@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "concurrently": "^8.2.0",
+    "ember-template-imports": "^4.0.0",
     "prettier": "^3.0.3",
     "prettier-plugin-ember-template-tag": "^1.1.0"
   },
